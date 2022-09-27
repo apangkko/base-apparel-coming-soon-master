@@ -148,14 +148,14 @@ input, input:focus {
     .soon {
         display: grid;
         gap: 1rem;
-        width: 60%;
+        width: 55%;
         text-align: left;
         padding: 5% 10%;
         background: url('./images/bg-pattern-desktop.svg'), linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
     }
 
     .soon-img-box {
-        width: 40%;
+        width: 45%;
         display: flex;
     }
 
