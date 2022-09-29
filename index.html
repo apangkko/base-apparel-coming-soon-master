@@ -27,11 +27,11 @@
         <h1 class="soon-heading"><span>We're</span><br/>coming<br/>soon</h1>
         <p class="soon-text">Hello fellow shoppers! We're currently building our new fashion store. 
     Add your email below to stay up-to-date with announcements and our launch deals.</p>
-        <div class="form">
+        <form class="form">
           <input type="email" name="email" id="email" placeholder="Email Address" onkeydown="test(event)">
-          <button class="btn-submit" onclick="validateEmail()"><img src="./images/icon-arrow.svg" alt="icon arrow" class="icon-arrow"></button>
+          <button class="btn-submit" onclick="validateEmail(event)"><img src="./images/icon-arrow.svg" alt="icon arrow" class="icon-arrow"></button>
           <img src="./images/icon-error.svg" class="icon-err">
-        </div>
+        </form>
         <div class="error-email">Please provide a valid email</div>
       </div>     
     </div>

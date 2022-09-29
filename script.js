@@ -2,7 +2,8 @@ const email = document.querySelector("#email");
 const emailError = document.querySelector(".error-email");
 const errorIcon = document.querySelector(".icon-err");
 
-function validateEmail() {
+function validateEmail(e) {
+    e.preventDefault();
     if(!email.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
         email.focus();
         email.style.border = "2px solid hsl(0, 93%, 68%)";
